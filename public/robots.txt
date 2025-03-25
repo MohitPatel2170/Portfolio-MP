@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ronakpaul.com/sitemap.xml
+Sitemap: https://www.ronakpaul.com/sitemap.xml

@@ -1,0 +1,12 @@
+@keyframes cursorBlink {
+  0% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+.blinkit {
+  animation: cursorBlink 1s steps(2) infinite;
+}
