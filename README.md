@@ -8,7 +8,7 @@
 <br><br><br>
 
 <p align="center">
-<a href="https://ronak-paul.vercel.app">Visit my portfolio</a>
+<a href="https://portfolio-mp-kappa.vercel.app/">Visit my portfolio</a>
 </p>
 
 <br><br>
