@@ -3,16 +3,15 @@ import {
   ArrowRightRounded,
   Devices,
 } from "@mui/icons-material";
-import ProjectCard from "./ProjectCard";
+import { useRef } from "react";
+import { useNavigate } from "react-router-dom";
+import codeCasingCover from "../assets/projectCovers/CodeCasing.jpg";
 import diagramgenCover from "../assets/projectCovers/diagramgen.jpg";
 import gmailCover from "../assets/projectCovers/gmail.jpg";
 import linkedCover from "../assets/projectCovers/linkedin.jpg";
-import slackCover from "../assets/projectCovers/slack.jpg";
-import rpgsCover from "../assets/projectCovers/rpgs.jpg";
 import expenseTrackerAppCover from "../assets/projectCovers/owlspender.jpg";
-import codeCasingCover from "../assets/projectCovers/CodeCasing.jpg";
-import { useRef } from "react";
-import { useNavigate } from "react-router-dom";
+import slackCover from "../assets/projectCovers/slack.jpg";
+import ProjectCard from "./ProjectCard";
 
 const windowWIDTH = window.innerWidth;
 
@@ -85,14 +84,6 @@ const ProjectSection = () => {
             status={"Completed"}
           />
           <ProjectCard
-            imgUrl={rpgsCover}
-            title="CLI based password Manager"
-            desp="It is fully encrypted password manager for Command Line where you can save multiple passwords with a label and retrieve them whenever you want."
-            sourceLink="https://www.npmjs.com/package/rpgs"
-            techStacks={["javascript", "nodejs"]}
-            status={"Completed"}
-          />
-          <ProjectCard
             imgUrl={gmailCover}
             title="Gmail Clone"
             desp="Gmail Clone is a replica of the real Gmail. Here you can send emails to others and also receive emails from others."
@@ -125,15 +116,6 @@ const ProjectSection = () => {
         </div>
       </div>
 
-      {/* <div className="flex flex-row justify-center">
-        <a
-          href="https://github.com/ronak-pal1?tab=repositories"
-          target="_blank"
-          className="bg-blue-500 font-poppins font-bold py-2 px-3 text-white rounded-md"
-        >
-          All Projects
-        </a>
-      </div> */}
     </div>
   );
 };

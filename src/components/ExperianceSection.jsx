@@ -65,8 +65,8 @@ const ExperianceCard = ({
 
       {/* What I have built in the company */}
       <div className="mt-4 lg:text-sm text-xs">
-        <p className="font-medium">
-          Works: <span className="font-light">{works}</span>
+        <p className="font-bold">
+          Works: <span className="font-medium">{works}</span>
         </p>
       </div>
     </div>
@@ -90,9 +90,9 @@ const ExperianceSection = () => {
           companyName={"Prep-Labs"}
           location={"remote"}
           duration={"7/06/2024 - 9/08/2024"}
-          tStack={["reactjs", "mongodb", "Nodejs", "tailwindcss", "redux"]}
+          tStack={["reactjs", "mongodb", "nodejs", "tailwindcss", "redux", "docker", "go", "firebase", "aws"]}
           works={
-            " My responsibility is to work on the given projects and work closely with the team to fullfill the client requirements."
+            " My responsibility is to work on the given projects and work closely with the team to fullfill the client requirements. Used Reactjs for most of the project work .Also worked with RESTfulAPIs for API communication and JWT for authentication. "
           }
           visitLink={"https://www.preplabs.tech/"}
         />
@@ -102,7 +102,7 @@ const ExperianceSection = () => {
           companyName={"Concettolabs"}
           location={"remote"}
           duration={"09/04/2023 - 13/06/2023"}
-          tStack={["reactjs", "css3", "Mongodb", "Expressjs", "AWS"]}
+          tStack={["html5", "css3", "tailwindcss", "postgressql", "reactjs", "nodejs", "mongodb", "expressjs", "materialui"]}
           works={
             " Wrote the frontened. Also built some crucial features like AI image generation, pop up warnings, customized editor, page for taking personal info of user. And also improved efficieny by reduicing the complexity of code."
           }
