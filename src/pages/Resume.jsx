@@ -5,8 +5,8 @@ const Resume = () => {
   return (
     <div className="mx-2 ">
       <Helmet>
-        <title>Ronak Paul: Resume</title>
-        <meta name="description" content="Resume of Ronak Paul" />
+        <title>Mohit Patel: Resume</title>
+        <meta name="description" content="Resume of Mohit Patel" />
       </Helmet>
       <img
         src={RESUME_IMG}

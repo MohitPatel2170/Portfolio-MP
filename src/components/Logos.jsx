@@ -1,4 +1,3 @@
-import { ClassNames } from "@emotion/react";
 
 const GetRequiredLogo = ({ logoName, size, color }) => {
   if (logoName === "tailwindcss") {

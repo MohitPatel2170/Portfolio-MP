@@ -1,6 +1,6 @@
 import { DarkMode, LightMode } from "@mui/icons-material";
 import { Link } from "react-router-dom";
-import ProfileIMG from "../assets/hero-img-2.jpg";
+import ProfileIMG from "../assets/my-image.jpg";
 
 const Header = ({ setDark, currentMode }) => {
   const changeMode = () => {
@@ -16,7 +16,7 @@ const Header = ({ setDark, currentMode }) => {
           className="lg:w-10 lg:h-10 w-7 h-7 object-cover rounded-full object-top"
         />
         <p className="font-bold font-poppins sm:text-xl text-lg dark:text-white">
-          Ronak Paul
+          Mohit Patel
         </p>
       </div>
 
@@ -29,17 +29,6 @@ const Header = ({ setDark, currentMode }) => {
         </a>
         <a href="#skills" className=" hover:border-b border-blue-700">
           Skills
-        </a>
-        <a href="/blog" className=" hover:border-b border-blue-700">
-          Blogs
-        </a>
-
-        <a
-          href="https://www.youtube.com/@CodaGo"
-          target="_blank"
-          className=" hover:border-b border-blue-700"
-        >
-          Youtube
         </a>
       </div>
 
@@ -56,7 +45,7 @@ const Header = ({ setDark, currentMode }) => {
         </div>
 
         <a
-          href="https://mail.google.com/mail/u/0/?fs=1&to=ronakpaul882@gmail.com&tf=cm"
+          href="https://mail.google.com/mail/u/0/?fs=1&to=mohitself2170@gmail.com&tf=cm"
           target="_blank"
           className="font-poppins bg-blue-600 text-gray-100 py-2 px-3 font-semibold rounded-full sm:text-sm text-xs"
         >

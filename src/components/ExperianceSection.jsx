@@ -1,9 +1,9 @@
 import { Construction } from "@mui/icons-material";
-import GetRequiredLogo from "./Logos";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
+import GetRequiredLogo from "./Logos";
 
 const ExperianceCard = ({
   role,
@@ -87,26 +87,26 @@ const ExperianceSection = () => {
         <ExperianceCard
           role={"Full Stack Developer"}
           roleType={"Intern"}
-          companyName={"Creative Upaay"}
+          companyName={"Prep-Labs"}
           location={"remote"}
-          duration={"4/11/2024 - Present"}
-          tStack={["reactjs", "mongodb", "typescript", "tailwindcss", "redux"]}
+          duration={"7/06/2024 - 9/08/2024"}
+          tStack={["reactjs", "mongodb", "Nodejs", "tailwindcss", "redux"]}
           works={
             " My responsibility is to work on the given projects and work closely with the team to fullfill the client requirements."
           }
-          visitLink={"https://www.creativeupaay.com/"}
+          visitLink={"https://www.preplabs.tech/"}
         />
         <ExperianceCard
-          role={"Software Development Engineer"}
+          role={"Frontend Developer"}
           roleType={"Intern"}
-          companyName={"applyin.co"}
+          companyName={"Concettolabs"}
           location={"remote"}
-          duration={"01/04/2024 - 31/5/2024"}
-          tStack={["reactjs", "css3", "postgressql", "python", "docker"]}
+          duration={"09/04/2023 - 13/06/2023"}
+          tStack={["reactjs", "css3", "Mongodb", "Expressjs", "AWS"]}
           works={
             " Wrote the frontened. Also built some crucial features like AI image generation, pop up warnings, customized editor, page for taking personal info of user. And also improved efficieny by reduicing the complexity of code."
           }
-          visitLink={"https://writeary.com/"}
+          visitLink={"https://www.concettolabs.com/"}
         />
       </div>
     </div>

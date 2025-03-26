@@ -6,7 +6,7 @@ const NotFound = () => {
   return (
     <div className="w-full h-screen flex justify-center">
       <Helmet>
-        <title>Ronak Paul: Not Found</title>
+        <title>Mohit Patel: Not Found</title>
         <meta name="description" content="Not found page" />
       </Helmet>
       <div className="mt-10 flex flex-col justify-center items-center">

@@ -1,15 +1,12 @@
-import { useState } from "react";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
 import { ArrowUpward } from "@mui/icons-material";
-import HomePage from "./pages/HomePage";
-import { Route, Routes } from "react-router-dom";
-import ProjectsPage from "./pages/ProjectsPage";
-import Resume from "./pages/Resume";
-import NotFound from "./pages/NotFound";
 import { Analytics } from "@vercel/analytics/react";
-import BlogsPage from "./pages/BlogsPage";
-import SingleBlogPage from "./pages/SingleBlogPage";
+import { useState } from "react";
+import { Route, Routes } from "react-router-dom";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import HomePage from "./pages/HomePage";
+import NotFound from "./pages/NotFound";
+import Resume from "./pages/Resume";
 
 function App() {
   const [isdarkMode, setIsDarkMode] = useState(false);
@@ -46,8 +43,6 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<NotFound />} />
-          <Route path="/blog" element={<BlogsPage />} />
-          <Route path="/blog/:slug" element={<SingleBlogPage />} />
           {/* <Route path="/projects" element={<ProjectsPage />} /> */}
         </Routes>
 

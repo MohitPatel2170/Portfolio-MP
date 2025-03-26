@@ -1,11 +1,11 @@
 import { GitHub, Instagram, LinkedIn, Twitter } from "@mui/icons-material";
-import heroImage2 from "../assets/hero-img-2.jpg";
-import { useEffect, useRef } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useEffect, useRef } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import myimage from "../assets/my-image.jpg";
 import "./styles/BlinkEffect.css";
 import TypingEffect from "./TypingEffect";
-import { Link, useNavigate } from "react-router-dom";
 
 const HeroSection = () => {
   const navigate = useNavigate();
@@ -79,7 +79,7 @@ const HeroSection = () => {
         {/* small text */}
         <div className="py-4">
           <p className="font-poppins text-sm font-thin lg:text-lg dark:text-white">
-            Welcome to my digital space! I'm Ronak Paul, a passionate full-stack
+            Welcome to my digital space! I'm Mohit Patel, a passionate full-stack
             developer with a flair for crafting digital experiences.
           </p>
         </div>
@@ -87,28 +87,28 @@ const HeroSection = () => {
         {/* social media links */}
         <div className="lg:pt-5 pt-7 [&>*]:m-3 flex flex-wrap items-center">
           <a
-            href="https://github.com/ronak-pal1"
+            href="https://github.com/MohitPatel2170"
             target="_blank"
             title="Github"
           >
             <GitHub fontSize="large" className="bg-white rounded-full" />
           </a>
           <a
-            href="https://www.linkedin.com/in/ronak-pal1/"
+            href="https://www.linkedin.com/in/mohitpatel2170"
             target="_blank"
             title="Linkedin"
           >
             <LinkedIn fontSize="large" className="text-blue-600" />
           </a>
           <a
-            href="https://twitter.com/ronak_pal1"
+            href=""
             target="_blank"
             title="Twitter or X"
           >
             <Twitter fontSize="large" className="text-lime-400" />
           </a>
           <a
-            href="https://instagram.com/ronak_pal1"
+            href="https://www.instagram.com/its_unq_mohit?igsh=MXdicGRoMjU4Zzd1eA="
             target="_blank"
             title="Instagram"
           >
@@ -145,7 +145,7 @@ const HeroSection = () => {
 
         <img
           ref={profileRef}
-          src={heroImage2}
+          src={myimage}
           alt="profile"
           className="col-start-1 row-start-1  h-96 lg:h-[500px] rounded-full transition-transform duration-300"
         />
