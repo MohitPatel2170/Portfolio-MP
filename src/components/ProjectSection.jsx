@@ -5,11 +5,9 @@ import {
 } from "@mui/icons-material";
 import { useRef } from "react";
 import { useNavigate } from "react-router-dom";
-import codeCasingCover from "../assets/projectCovers/CodeCasing.jpg";
 import diagramgenCover from "../assets/projectCovers/diagramgen.jpg";
 import gmailCover from "../assets/projectCovers/gmail.jpg";
 import linkedCover from "../assets/projectCovers/linkedin.jpg";
-import expenseTrackerAppCover from "../assets/projectCovers/owlspender.jpg";
 import slackCover from "../assets/projectCovers/slack.jpg";
 import ProjectCard from "./ProjectCard";
 
@@ -63,31 +61,15 @@ const ProjectSection = () => {
             imgUrl={diagramgenCover}
             title="Whiteboard and AI based Diagram Generator"
             desp="This is a AI based whiteboard tool like excalidraw but with much more features. You can make digrams with different shapes and also collaborate with others."
-            sourceLink="https://github.com/ronak-pal1/diagramgen"
+            sourceLink="https://github.com/MohitPatel2170/Diagram-Generator.git"
             techStacks={["reactjs", "tailwindcss", "aws"]}
             status={"Ongoing"}
-          />
-          <ProjectCard
-            imgUrl={expenseTrackerAppCover}
-            title="Expense Tracker App"
-            desp="This is a expense tracker app for students and working professional to keep track of their expenses. It uses labels and prizes to keep track expenses."
-            sourceLink="https://github.com/ronak-pal1/Expense-Tracker-App"
-            techStacks={["reactjs", "firebase", "tailwindcss"]}
-            status={"Completed"}
-          />
-          <ProjectCard
-            imgUrl={codeCasingCover}
-            title="Code snippet generator"
-            desp="CodeCasing is a code to image generator app. You just have to give the code and your will get an customizable image in return."
-            sourceLink="https://ronak-pal1.github.io/CodeCasing/"
-            techStacks={["html5", "css3", "javascript"]}
-            status={"Completed"}
           />
           <ProjectCard
             imgUrl={gmailCover}
             title="Gmail Clone"
             desp="Gmail Clone is a replica of the real Gmail. Here you can send emails to others and also receive emails from others."
-            sourceLink="https://github.com/ronak-pal1/Email-Clone"
+            sourceLink="https://github.com/MohitPatel2170/Gmail-clone.git"
             techStacks={["reactjs", "redux", "css3", "firebase", "materialui"]}
             status={"Completed"}
           />
@@ -95,7 +77,7 @@ const ProjectSection = () => {
             imgUrl={linkedCover}
             title="LinkedIn Clone"
             desp="LinkedIn Clone is a replica of the real LinkedIn. Here you can make posts and you can also see others posts."
-            sourceLink="https://github.com/ronak-pal1/LinkedIn-Clone"
+            sourceLink="https://github.com/MohitPatel2170/LinkdIn-clone.git"
             techStacks={["reactjs", "redux", "css3", "firebase", "materialui"]}
             status={"Completed"}
           />
@@ -103,7 +85,7 @@ const ProjectSection = () => {
             imgUrl={slackCover}
             title="Slack Clone"
             desp="slack Clone is a replica of the real Slack app. Here you can make different rooms and chat with other members in the room."
-            sourceLink="https://github.com/ronak-pal1/Email-Clone"
+            sourceLink="https://github.com/MohitPatel2170/Slack-Clone.git"
             techStacks={[
               "reactjs",
               "redux",
