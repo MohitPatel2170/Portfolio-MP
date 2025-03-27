@@ -7,8 +7,10 @@ import { useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import diagramgenCover from "../assets/projectCovers/diagramgen.jpg";
 import gmailCover from "../assets/projectCovers/gmail.jpg";
+import jobportalCover from "../assets/projectCovers/job-portalCover.jpeg";
 import linkedCover from "../assets/projectCovers/linkedin.jpg";
 import slackCover from "../assets/projectCovers/slack.jpg";
+import wierdMonsterCover from "../assets/projectCovers/Wierd-monsterCover.jpg";
 import ProjectCard from "./ProjectCard";
 
 const windowWIDTH = window.innerWidth;
@@ -66,6 +68,14 @@ const ProjectSection = () => {
             status={"Ongoing"}
           />
           <ProjectCard
+            imgUrl={jobportalCover}
+            title="MERN Job Portal"
+            desp="A full-featured job portal where job seekers can find and apply for jobs while recruiters can post and manage job listings."
+            sourceLink="https://github.com/MohitPatel2170/MERN--Job-Portal.git"
+            techStacks={["reactjs", "tailwindcss", "nodejs", "expressjs", "mongodb"]}
+            status={"Completed"}
+          />
+          <ProjectCard
             imgUrl={gmailCover}
             title="Gmail Clone"
             desp="Gmail Clone is a replica of the real Gmail. Here you can send emails to others and also receive emails from others."
@@ -93,6 +103,14 @@ const ProjectSection = () => {
               "firebase",
               "materialui",
             ]}
+            status={"Completed"}
+          />
+          <ProjectCard
+            imgUrl={wierdMonsterCover}
+            title="Animated Creature Simulation"
+            desp="An interactive HTML canvas animation where a segmented creature dynamically moves and follows the cursor. Features include different limb structures like tentacles, arms, and legs, with realistic joint-based movement."
+            sourceLink="https://github.com/MohitPatel2170/Weird-Monster-creation.git"
+            techStacks={["javascript", "html5", "css3", "canvas"]}
             status={"Completed"}
           />
         </div>
